@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg-demo" {
-  name        = "alb-sg"
+  name        = "alb-gb"
   vpc_id      = aws_vpc.vpc1.id
   description = "Allow httpd"
 
